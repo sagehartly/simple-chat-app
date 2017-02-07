@@ -1,0 +1,12 @@
+@import 'colors';
+
+.messages li {
+  &:nth-child(even) {
+    background: $primary;
+  }
+}
+
+.message {
+  font-size: 6em;
+  line-height: 0.5em;
+}
