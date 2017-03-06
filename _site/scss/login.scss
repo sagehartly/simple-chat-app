@@ -1,0 +1,62 @@
+@import 'colors';
+@import 'default';
+@import 'layers';
+
+.nav {
+  @include position(absolute);
+  background-color: white;
+  z-index: $top;
+  width: 100%;
+  height: 100px;
+}
+
+.center {
+  width: 100vw;
+  height: 100vh;
+  z-index: $middle;
+  background: shade($primary, 0.6);
+  font-family: Roboto;
+  @include position(fixed);
+  @include display(flex);
+  @include flex-direction(column);
+  @include align-items(center);
+  @include justify-content(center);
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.container {
+}
+
+.login-button {
+  z-index: $top;
+  @include position(fixed);
+  top: 379px;
+  left: 800px;
+  background-color: black;
+  color: white;
+  font-size: 1em;
+  padding: 15px 20px;
+  border: 2px solid black;
+
+}
+
+label {
+  @include position(fixed);
+  top: 440px;
+  left: 503px;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 2em;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+  background: 0;
+  border: none;
+  border-bottom: 2px solid black;
+}

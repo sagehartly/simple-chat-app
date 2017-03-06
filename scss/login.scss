@@ -1,0 +1,70 @@
+@import 'colors';
+@import 'default';
+@import 'layers';
+
+.top {
+  padding-bottom: 2px;
+  @include position(fixed);
+  background-color: white;
+  z-index: $top;
+  width: 100%;
+  height: 100px;
+  h1 {
+    margin-left: 50px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-family: "Arvo";
+    font-weight: 400;
+  }
+}
+
+.center {
+  width: 100vw;
+  height: 100vh;
+  z-index: $middle;
+  @include position(absolute);
+  @include display(flex);
+  @include flex-direction(column);
+  @include align-items(center);
+  @include justify-content(center);
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.login-button {
+  z-index: $top;
+  @include position(fixed);
+  background-color: black;
+  color: white;
+  font-size: 1em;
+  padding: 15px 20px;
+  border: 2px solid black;
+  top: 55.8%;
+  left: 68%;
+}
+
+label {
+  @include position(relative);
+  top: 55px;
+  font-family: "Arvo";
+}
+
+h1 {
+  font-size: 2em;
+  text-align: left;
+  line-height: 2em;
+  font-family: "Arvo";
+}
+
+input {
+  width: 300px;
+  height: 50px;
+  background: 0;
+  border: none;
+  border-bottom: 2px solid black;
+  @include position(fixed);
+  font-family: "Roboto";
+  font-size: 1em;
+  color: gray;
+}
