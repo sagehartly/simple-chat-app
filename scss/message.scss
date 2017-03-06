@@ -1,0 +1,62 @@
+@import "colors";
+
+.message {
+  font-family: 'Arvo', serif;
+}
+
+.message {
+   font-size: 1em;
+   padding: 0;
+}
+
+li {
+  padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.messages li:nth-child(odd) {
+  background: $secondary;
+  width: 70%;
+  color: white;
+  border-radius: 8px;
+}
+
+.messages li:nth-child(even) {
+  padding-left: 40px;
+}
+
+.message-container {
+  border: 4px solid black;
+  margin-left: 40px;
+  width: 70%;
+  height: 60px;
+}
+
+.message-button {
+  border-radius: 0;
+  border-style: none;
+  background: black;
+  font-size: 1.2em;
+  color: white;
+  height: 60px;
+  width: 80px;
+  position: absolute;
+  font-family: 'Arvo', serif;
+}
+
+form {
+  background: $secondary;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.notifications {
+  color: grey;
+}
