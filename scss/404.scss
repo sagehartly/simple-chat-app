@@ -18,6 +18,18 @@ body{
   font-weight: bold;
 }
 
+p{
+  color: black;
+  padding: 0.5em;
+  height: 250px;
+  letter-spacing: 15px;
+  text-align: center;
+  display: block;
+  font-size: 200px;
+  top: 10px;
+  margin-bottom: 15px;
+}
+
 .home {
   text-align: center;
   display: block;
@@ -35,7 +47,7 @@ body{
     z-index: 5;
     font-size: 25px;
     margin: 0 auto;
-    color: #c62327;
+    color: white;
     text-decoration: none;
     margin-right: 10px;
     border-radius: 5px;
