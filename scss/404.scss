@@ -28,6 +28,8 @@ p{
   font-size: 200px;
   top: 10px;
   margin-bottom: 15px;
+  position: relative;
+  z-index: 9999;
 }
 
 .home {
@@ -72,7 +74,6 @@ footer {
   background-size: 100px 100px;
   background-position: 0 0, 50px 50px, 50px 0px;
   -webkit-animation: scroll 5s linear infinite;
-  z-index: -1;
 }
 
 @-webkit-keyframes scroll {
