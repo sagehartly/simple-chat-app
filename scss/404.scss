@@ -38,19 +38,19 @@ p{
   margin: 100px auto;
 }
 
-  .btn{
-    background-color: black;
-    position: relative;
-    display: inline-block;
-    width: 358px;
-    padding: 5px;
-    z-index: 5;
-    font-size: 25px;
-    margin: 0 auto;
-    color: white;
-    text-decoration: none;
-    margin-right: 10px;
-    border-radius: 5px;
+.btn{
+  background-color: black;
+  position: relative;
+  display: inline-block;
+  width: 358px;
+  padding: 5px;
+  z-index: 5;
+  font-size: 25px;
+  margin: 0 auto;
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  border-radius: 5px;
 }
 
 footer {
@@ -72,6 +72,7 @@ footer {
   background-size: 100px 100px;
   background-position: 0 0, 50px 50px, 50px 0px;
   -webkit-animation: scroll 5s linear infinite;
+  z-index: -1;
 }
 
 @-webkit-keyframes scroll {
